@@ -392,7 +392,7 @@ lint_package() {
 }
 
 linter_main() {
-	local package_counter=0
+	local package_counter=$1
 	local problems_found=false
 	local package_script
 
